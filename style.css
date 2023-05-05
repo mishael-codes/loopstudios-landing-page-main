@@ -75,12 +75,14 @@ header{
   margin-bottom: 18px;
 }
 
-.nav-item a:link{
-  color: var(--dark-gray);
+.nav-item a:link,
+.footer-nav > ul > li > a:link{
+  color: var(--white);
   text-decoration: none;
 }
 
-.nav-item a:visited{
+.nav-item a:visited,
+.footer-nav > ul > li > a:visited{
   color: var(--very-dark-gray);
   text-decoration: underline;
 }
@@ -157,4 +159,34 @@ header{
   font-weight: 400;
   letter-spacing: 3px;
   background-color: var(--white);
+}
+
+footer{
+  color: var(--dark-gray);
+  text-align: center;
+  background-color: var(--black);
+}
+
+#footer-logo{
+  margin: 50px 0 30px;
+}
+
+.footer-nav{
+  margin-bottom: 50px;
+}
+
+.footer-nav > ul > li{
+  margin: 15px 0;
+}
+
+#social-links{
+  margin-bottom: 20px;
+}
+
+#social-links > img{
+  margin: 10px;
+}
+
+#copyright{
+  margin-bottom: 10px;
 }
