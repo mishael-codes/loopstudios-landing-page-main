@@ -100,17 +100,18 @@ header{
 
 /* VR SECTION */
 
+
+.vr,
+.creation-container{
+  text-align: center;
+  width: 90%;
+  margin: 50px auto;
+}
+
 #interactive-img{
   width: 100%;
   margin-top: 60px;
   margin-bottom: 20px;
-}
-
-.vr{
-  margin-top: 40px;
-  text-align: center;
-  width: 90%;
-  margin: 0 auto;
 }
 
 .vr h2{
@@ -124,3 +125,36 @@ header{
 }
 
 /* OUR CREATIONS */
+
+.creation-container h2,
+.creation-name{
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.creation-img{
+    width: 100%;
+}
+
+.creation{
+  position: relative;
+  margin: 20px 0;
+}
+
+.creation-name{
+  position: absolute;
+  left: 25px;
+  bottom: -5px;
+  color: var(--white);
+  text-align: left;
+}
+
+#btn{
+  color: var(--black);
+  width: 140px;
+  height: 40px;
+  border: 1px solid var(--black);
+  font-weight: 400;
+  letter-spacing: 3px;
+  background-color: var(--white);
+}
