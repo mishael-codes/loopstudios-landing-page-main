@@ -98,7 +98,29 @@ header{
   border: 1px solid var(--white);
 }
 
+/* VR SECTION */
+
 #interactive-img{
   width: 100%;
-  padding: 25px;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
+
+.vr{
+  margin-top: 40px;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.vr h2{
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.vr p{
+  font-weight: 400;
+  line-height: 25px;
+}
+
+/* OUR CREATIONS */
