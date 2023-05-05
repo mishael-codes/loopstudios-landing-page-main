@@ -1,0 +1,141 @@
+/* navbar section */
+#navbar {
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  margin-left: 50px;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#logo{
+  position: static;
+}
+
+#open{
+  display: none;
+}
+
+#nav-list {
+  display: flex;
+  justify-content: end;
+  position: static;
+  width: 100%;
+  height: fit-content;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: 400;
+  list-style-type: none;
+  background-color: transparent;
+  z-index: 1;
+  margin-top: 0px;
+}
+
+.nav-item {
+  margin-bottom: 0px;
+}
+
+.nav-item a:link,
+.footer-nav > ul > li > a:link {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.nav-item a:visited,
+.footer-nav > ul > li > a:visited {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+/* header text */
+
+#hero-text {
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  width: 42%;
+  padding: 20px;
+  color: var(--white);
+  border: 1px solid var(--white);
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+/* VR SECTION */
+.creation-container{
+  position: relative;
+}
+
+.vr,
+.creation-container {
+  position: relative;
+  text-align: left;
+  width: 85%;
+  margin: 50px auto 150px;
+}
+
+#interactive-img {
+  width: 60%;
+  margin-top: 60px;
+}
+
+.vr-text{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  padding: 20px 30px;
+  background-color: var(--white);
+}
+
+.vr h2{
+  font-size: 2rem;
+}
+
+.creation-container > div{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.creation{
+  margin: 0;
+}
+
+#btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  padding: 0 50px;
+}
+
+#footer-logo {
+  margin: 50px 0 20px;
+}
+
+.footer-nav > ul{
+  display: flex;
+}
+
+.footer-nav > ul > li {
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+#social-links {
+  margin-bottom: 20px;
+}
+
+.footer-right{
+  text-align: right;
+}

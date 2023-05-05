@@ -45,7 +45,7 @@ header {
 #logo,
 #open,
 #close {
-  position: fixed;
+  position: absolute;
   z-index: 999;
 }
 
@@ -75,7 +75,7 @@ header {
   list-style-type: none;
   background-color: var(--black);
   z-index: 1;
-  margin-top: -1000px;
+  margin-top: -2000px;
 }
 
 .nav-item {
@@ -197,7 +197,7 @@ footer {
 }
 
 #social-links > img {
-  margin: 10px;
+  margin: 0 10px;
 }
 
 #copyright {
