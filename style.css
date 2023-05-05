@@ -136,6 +136,7 @@ header{
 
 .creation-img{
     width: 100%;
+    filter:brightness(75%);
 }
 
 .creation{
@@ -160,6 +161,8 @@ header{
   letter-spacing: 3px;
   background-color: var(--white);
 }
+
+/* footer */
 
 footer{
   color: var(--dark-gray);
