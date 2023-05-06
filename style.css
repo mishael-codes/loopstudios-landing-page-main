@@ -81,6 +81,11 @@ header {
   margin-bottom: 18px;
 }
 
+.nav-item a,
+.footer-nav > ul > li > a{
+  position: relative;
+}
+
 .nav-item a:link,
 .footer-nav > ul > li > a:link {
   color: var(--white);
@@ -89,8 +94,16 @@ header {
 
 .nav-item a:visited,
 .footer-nav > ul > li > a:visited {
-  color: var(--very-dark-gray);
+  color: var(--dark-gray);
   text-decoration: underline;
+}
+
+.nav-item a:hover:before,
+.footer-nav > ul > li > a:hover:before{
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 100px;
 }
 
 /* header text */
@@ -170,6 +183,14 @@ header {
   font-family: var(--font-type-2);
   letter-spacing: 3px;
   background-color: var(--white);
+  transition: .7s;
+  cursor: pointer;
+}
+
+#btn:hover{
+  color: var(--white);
+  border-color: var(--white);
+  background-color: var(--black);
 }
 
 /* footer */
