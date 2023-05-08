@@ -16,18 +16,3 @@ close.addEventListener("click", () => {
   close.style.display = "none";
   open.style.display = "block";
 });
-
-let creationImgs = document.querySelectorAll(".creation-img");
-let creationNames = document.querySelectorAll(".creation-name");
-
-creationImgs.forEach((creationImg) => {
-  creationImg.addEventListener("mouseover", () => {
-    creationImg.style.opacity = "0.5"
-    creationImg.style.transitionDuration = ".3s"
-    creationImg.style.cursor = "pointer"
-  })
-
-  creationImg.addEventListener("mouseleave", () => {
-    creationImg.style.opacity = "1"
-  })
-})
