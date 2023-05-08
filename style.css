@@ -79,6 +79,7 @@ header {
 
 .nav-item,
 .footer-nav > ul > li{
+  padding-bottom: 7px;
   position: relative;
   margin-bottom: 18px;
 }
@@ -89,9 +90,9 @@ header {
   position: absolute;
   bottom: 0;
   left: 40%;
-  width: 30%;
-  height: 2px;
-  transition: .7s;
+  width: 35%;
+  height: 3px;
+  border-radius: 15px;
   background-color: var(--white);
 }
 
