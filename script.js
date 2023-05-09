@@ -11,7 +11,6 @@ open.addEventListener("click", () => {
 
 close.addEventListener("click", () => {
   let navlist = document.getElementById("nav-list");
-  navlist.style.transitionDuration = ".5s";
   navlist.style.marginTop = "-2000px";
   close.style.display = "none";
   open.style.display = "block";
