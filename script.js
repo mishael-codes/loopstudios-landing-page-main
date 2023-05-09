@@ -3,7 +3,7 @@ let close = document.getElementById("close");
 
 open.addEventListener("click", () => {
   let navlist = document.getElementById("nav-list");
-  navlist.style.transitionDuration = "7s";
+  navlist.style.transitionDuration = ".7s";
   navlist.style.marginTop = "0px";
   open.style.display = "none";
   close.style.display = "block";

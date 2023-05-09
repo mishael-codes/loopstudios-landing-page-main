@@ -84,18 +84,6 @@ header {
   margin-bottom: 18px;
 }
 
-.nav-item:hover::after,
-.footer-nav > ul > li:hover::after{
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 40%;
-  width: 35%;
-  height: 3px;
-  border-radius: 15px;
-  background-color: var(--white);
-}
-
 .nav-item a:link,
 .footer-nav > ul > li > a:link {
   color: var(--white);
