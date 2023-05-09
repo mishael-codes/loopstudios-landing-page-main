@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/desktop-screenshot.png.jpg)
-![](./images/mobile-screenshot.png.jpg)
+![](images/desktop-screenshot.png)
+![](images/mobile-screenshot.png)
 
 ### Links
 
@@ -72,4 +72,4 @@ In the above code, when section is hovered, the color of the `<p>` tag changes t
 
 ## Acknowledgments
 
-I was tied down on how to make the ```creation-name```change after hovering on the image itself but with a few digging here ad there, I found [Valeriia's](https://www.frontendmentor.io/profile/Magic1vy) code solution which gave me an idea of how to make that feature work.
+I was tied down on how to make the ```creation-name``` change after hovering on the image itself but with a few digging here and there, I found [Valeriia's](https://www.frontendmentor.io/profile/Magic1vy) code solution which gave me an idea of how to make that feature work.
